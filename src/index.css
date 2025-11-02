@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200 dark:border-gray-700;
+  }
+
+  html, body {
+    @apply overflow-x-hidden;
+  }
+  
+  body {
+    @apply bg-white dark:bg-black text-neutral dark:text-white antialiased transition-colors duration-300;
+    font-feature-settings: "cv11", "ss01";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent hover:bg-accent-dark text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl;
+  }
+
+  .btn-secondary {
+    @apply bg-primary hover:bg-primary-light text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105;
+  }
+
+  .btn-outline {
+    @apply border-2 border-accent dark:border-accent text-accent dark:text-accent hover:bg-accent hover:text-white dark:hover:text-black font-semibold px-8 py-4 rounded-lg transition-all duration-300;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 md:px-6;
+  }
+
+  .card {
+    @apply bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-900 rounded-xl p-8 shadow-lg dark:shadow-accent/10 hover:shadow-2xl dark:hover:shadow-accent/20 transition-all duration-300 hover:-translate-y-2;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent;
+  }
+
+  .bg-light {
+    @apply bg-white dark:bg-black;
+  }
+
+  .bg-section {
+    @apply bg-neutral-light dark:bg-black;
+  }
+
+  .text-primary {
+    @apply text-neutral dark:text-white;
+  }
+
+  .text-secondary {
+    @apply text-neutral-medium dark:text-gray-300;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00D4FF;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00a8cc;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
