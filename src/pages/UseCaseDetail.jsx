@@ -298,7 +298,7 @@ const UseCaseDetail = () => {
                 <FaArrowRight className="ml-3" />
               </Link>
               <Link to="/use-cases" className="border-2 border-white dark:border-accent text-white dark:text-accent hover:bg-white dark:hover:bg-accent hover:text-neutral dark:hover:text-black font-semibold px-10 py-5 rounded-lg transition-all duration-300 inline-flex items-center justify-center text-lg">
-                View Other Solutions
+                View All AI Solutions
               </Link>
             </div>
           </motion.div>

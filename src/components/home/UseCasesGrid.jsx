@@ -90,7 +90,7 @@ const UseCasesGrid = () => {
           className="text-center mt-12"
         >
           <Link to="/use-cases" className="btn-primary inline-flex items-center">
-            View All Solutions
+            View All AI Solutions
             <FaArrowRight className="ml-2" />
           </Link>
         </motion.div>

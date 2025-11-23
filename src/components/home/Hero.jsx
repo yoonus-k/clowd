@@ -50,7 +50,7 @@ const Hero = () => {
                 <FaArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link to="/use-cases" className="btn-outline inline-flex items-center justify-center">
-                Explore Solutions
+                Explore AI Solutions
               </Link>
             </div>
 

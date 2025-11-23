@@ -41,7 +41,7 @@ const CTA = () => {
                 to="/use-cases"
                 className="border-2 border-white dark:border-accent text-white dark:text-accent hover:bg-white dark:hover:bg-accent hover:text-primary dark:hover:text-black font-semibold px-10 py-5 rounded-lg transition-all duration-300 inline-flex items-center text-lg"
               >
-                Explore Solutions
+                Explore AI Solutions
               </Link>
             </div>
 

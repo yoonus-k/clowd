@@ -84,7 +84,7 @@ const SolutionOverview = () => {
             </div>
 
             <Link to="/use-cases" className="btn-primary inline-flex items-center">
-              Explore Use Cases
+              Explore AI Solutions
               <FaRocket className="ml-2" />
             </Link>
           </motion.div>

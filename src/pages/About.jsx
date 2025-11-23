@@ -163,7 +163,7 @@ const About = () => {
                 <FaCogs className="text-white text-xl" />
               </div>
               <h3 className="text-xl font-display font-bold text-neutral dark:text-white mb-3">
-                SaaS Solutions
+                AI Products (SaaS)
               </h3>
               <p className="text-neutral-medium dark:text-gray-300">
                 Scalable subscription-based models that grow with your business needs and deliver continuous value.
