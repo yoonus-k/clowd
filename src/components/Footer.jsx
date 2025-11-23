@@ -11,7 +11,8 @@ const Footer = () => {
   const footerLinks = {
     company: [
       { name: 'About Us', path: '/about' },
-      { name: 'Use Cases', path: '/use-cases' },
+      { name: 'AI Solutions', path: '/use-cases' },
+      { name: 'AI Products', path: '/saas' },
       { name: 'Contact', path: '/contact' },
     ],
     useCases: [
@@ -92,9 +93,9 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Use Cases */}
+          {/* AI Solutions */}
           <div>
-            <h3 className="text-lg font-display font-semibold mb-6">Solutions</h3>
+            <h3 className="text-lg font-display font-semibold mb-6">AI Solutions</h3>
             <ul className="space-y-3">
               {footerLinks.useCases.map((link) => (
                 <li key={link.path}>

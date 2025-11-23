@@ -6,7 +6,7 @@ import { FaComments, FaTimes, FaPaperPlane, FaRobot } from 'react-icons/fa';
 const chatData = [
   {
     question: "What services does Clowd offer?",
-    answer: "Clowd offers 5 AI-powered solutions: Intelligent Document Processing, Predictive Analytics, Customer Service Automation, Supply Chain Optimization, and Financial Intelligence. Each solution is designed to transform your business operations and drive efficiency."
+    answer: "Clowd offers two types of AI services: 1) Custom AI Solutions - tailored implementations including Document Processing, Supply Chain Intelligence, Demand Forecasting, Customer Service AI, and Financial Intelligence. 2) AI Products - 17+ ready-to-use SaaS tools across Marketing, E-commerce, Finance, Operations, and Industry verticals with 14-day free trials."
   },
   {
     question: "How can AI help my business?",
@@ -35,6 +35,10 @@ const chatData = [
   {
     question: "What industries do you serve?",
     answer: "We serve a wide range of industries including Finance, Healthcare, Retail, Manufacturing, Logistics, and more. Our AI solutions are customizable to fit the unique needs of any industry."
+  },
+  {
+    question: "What's the difference between AI Solutions and AI Products?",
+    answer: "AI Solutions are custom-built implementations tailored specifically to your company's unique needs and workflows. AI Products are ready-to-use SaaS applications that you can start using immediately with a 14-day free trial. Solutions are for deep integration, Products are for quick deployment."
   }
 ];
 
